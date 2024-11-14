@@ -8,8 +8,8 @@ This tool parses flow log data and maps each entry to a tag based on a lookup ta
 
 - Parses flow log data in plain text format.
 - Maps each flow log entry to a tag based on a lookup table.
-- Counts and reports tag occurrences, including "Untagged" entries.
-- Counts unique port/protocol combinations and outputs them.
+- Counts and reports tag occurrences, including "Untagged" entries in tag_counts.csv.
+- Counts unique port/protocol combinations and outputs them in port_protocol_counts.csv.
 - Supports loading lookup tables in `.csv` format.
 
 ## Requirements
